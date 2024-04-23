@@ -35,11 +35,11 @@ async def start_command(bot, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/NT_BOT_CHANNEL'),
+          InlineKeyboardButton('📍 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/SHETTY_BOTS'),
       ],
       [
-          InlineKeyboardButton('👩‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/LISA_FAN_LK'),
-          InlineKeyboardButton('🚨 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/NT_BOTS_SUPPORT'),
+          InlineKeyboardButton('👩‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/jeevan_shetty'),
+          InlineKeyboardButton('🚨 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/shettyDiscus_Group'),
           ],
           [
           InlineKeyboardButton('⛔️ 𝐂𝐋𝐎𝐒𝐄', callback_data='cancel')
@@ -72,7 +72,7 @@ async def help_command(bot, message: Message):
 
 **Enjoy using the bot! If you encounter any issues, feel free to contact the owner.**
 
-**OWNER :** @LISA_FAN_LK & @YEAH_NEW
+**OWNER :** 🧑‍💻@jeevan_shetty
 """
     await message.reply_text(help_msg)
 
